@@ -3,7 +3,7 @@ pipeline {
         label "jenkins-nodejs"
     }
     environment {
-      ORG               = 'faiq'
+      ORG               = 'oracle-cloudnative'
       APP_NAME          = 'angular-io-quickstart'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
